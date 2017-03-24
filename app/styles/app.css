@@ -21,6 +21,10 @@
   border-radius: 2%;
 }
 
+:hover.question{
+  background-color: #d3d3d3;
+}
+
 .text {
   text-align: center;
   font-size: 30px;
@@ -29,8 +33,14 @@
 
 body {
   background-image: url("https://img.clipartfest.com/6bf6b6d2fc0b83c8d99cfa7754aca5c9_-forest-winter-snow-seasons-snow-falling-clipart-background-in-circle_1920-1200.jpeg");
+  background-repeat: no-repeat;
 }
 
 img {
   height: 400px;
+}
+
+.btn {
+  background-color: teal;
+  color: white;
 }
