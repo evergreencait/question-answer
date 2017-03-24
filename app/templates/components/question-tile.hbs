@@ -7,5 +7,6 @@
     {{else}}
       <button {{action 'imageShow'}}>Show image</button>
     {{/if}}
+    {{update-question question=question update="update"}}
      <button {{action 'delete' question}}>Delete question</button>
 </div>
