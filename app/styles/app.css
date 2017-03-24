@@ -1,0 +1,13 @@
+.logo {
+  height: 110px;
+  margin-top: -25px;
+}
+
+.navbar {
+  background-color: #3b1261;
+  height: 90px;;
+}
+
+.pull-right {
+  padding-left: 50px;
+}
