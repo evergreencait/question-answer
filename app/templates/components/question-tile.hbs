@@ -1,6 +1,6 @@
 <div class="question">
   <div class="text">
-    {{#link-to 'question' question.id}}{{question.author}}'s question: {{/link-to}}
+    <span class="quesHead">{{#link-to 'question' question.id}}{{question.author}}'s question: {{/link-to}}</span>
     <br>
     {{question.inquiry}}
     {{#if isImageShowing}}

@@ -1,15 +1,17 @@
 <div class="detail">
-  Author:{{question.author}}
-  Question: {{question.inquiry}}
-  Notes: {{question.notes}}
+  <span class="key">Author: </span>{{question.author}}
   <br>
-  Image: <img src={{question.image}} alt={{question.inquiry}}>
+  <span class="key">Question: </span>{{question.inquiry}}
+  <br>
+  <span class="key">Notes: </span>{{question.notes}}
+  <br>
+  <img src={{question.image}} alt={{question.inquiry}}>
   <br>
   <br>
   <button class="btn"{{action 'delete' question}}>Delete</button>
 
 </div>
-<h2> Answers </h2>
+<h2 class="answers">Answers</h2>
 <ul>
   {{#each question.answers as |answer|}}
   {{answer-tile answer=answer}}

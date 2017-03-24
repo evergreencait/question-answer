@@ -16,7 +16,7 @@
   border: 3px solid black;
   margin: 40px;
   padding-bottom: 200px;
-  background-color: white;
+  background-image: url("http://orig14.deviantart.net/6043/f/2015/124/6/7/snow_ground_wallpaper_by_paintevil-d8kivsb.png");
   box-shadow: 30px 30px 5px #888888;
   border-radius: 2%;
 }
@@ -63,4 +63,24 @@ h2 {
 
 p {
   font-size: 30px;
+}
+
+.key {
+  font-weight: bold;
+}
+
+.answers {
+  font-size: 50px;
+  border: 5px solid white;
+  background-color: teal;
+  color: white;
+}
+
+.quesHead {
+  font-size: 50px;
+}
+
+.answer {
+  border: 2px solid white;
+  background-color: white;
 }
