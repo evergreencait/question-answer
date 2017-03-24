@@ -1,10 +1,10 @@
 <h1> Snowboarding Forum </h1>
 
-A place to ask question about snowboarding and get the answers you need!
+<h2> Questions: </h2>
 
 <ul>
   {{#each model.questions as |question|}}
-     {{question-tile question=question}}
+    {{question-tile question=question}}
   {{/each}}
 </ul>
 
@@ -14,9 +14,11 @@ A place to ask question about snowboarding and get the answers you need!
 
 <ul>
   {{#each model.answers as |answer|}}
-    <li>{{answer.response}} by {{answer.author}}</li>
+    <li>{{answer.response}} - {{answer.author}}</li>
   {{/each}}
 </ul>
+
+{{new-answer saveAnswer="saveAnswer"}}
 
 <hr>
 
