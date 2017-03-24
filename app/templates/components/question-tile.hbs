@@ -2,8 +2,8 @@
   {{question.inquiry}} by {{question.author}}
   {{question.notes}}
   {{#if isImageShowing }}
-    <p><img scr={{question.image}} ></p>
+    <p><img scr={{question.image}} {{action 'imageHide'}}></p>
   {{else}}
-    <button>Show image</button>
+    <button {{action 'imageShow'}}>Show image</button>
   {{/if}}
 </li>
