@@ -1,5 +1,7 @@
 <div class="question">
-    {{#link-to 'question' question.id}}{{question.author}}'s question{{/link-to}}
+    {{#link-to 'question' question.id}}{{question.author}}'s question: {{/link-to}}
+    <br>
+    {{question.inquiry}}
     {{#if isImageShowing}}
       <p><img src={{question.image}} alt={{question.inquiry}} {{action 'imageHide'}}></p>
     {{else}}
