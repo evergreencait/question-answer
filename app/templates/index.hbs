@@ -3,14 +3,11 @@
 <h2> Questions: </h2>
 
 <ul>
-  {{#each model.questions as |question|}}
+    {{#each model.questions as |question|}}
     {{question-tile question=question}}
-  {{/each}}
+    {{/each}}
 </ul>
 
 {{new-question saveQuestion="saveQuestion"}}
 
 <hr>
-
-{{#link-to 'about'}}About{{/link-to}}
-{{#link-to 'contact'}}Click here to contact us.{{/link-to}}

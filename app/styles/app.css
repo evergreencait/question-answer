@@ -11,3 +11,26 @@
 .pull-right {
   padding-left: 50px;
 }
+
+.question {
+  border: 3px solid black;
+  margin: 40px;
+  padding-bottom: 200px;
+  background-color: white;
+  box-shadow: 30px 30px 5px #888888;
+  border-radius: 2%;
+}
+
+.text {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+body {
+  background-image: url("https://img.clipartfest.com/6bf6b6d2fc0b83c8d99cfa7754aca5c9_-forest-winter-snow-seasons-snow-falling-clipart-background-in-circle_1920-1200.jpeg");
+}
+
+img {
+  height: 400px;
+}
