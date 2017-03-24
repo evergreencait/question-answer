@@ -1,12 +1,8 @@
 <div class="question">
-  {{question.inquiry}} by {{question.author}}
-  <hr>
-  {{question.notes}}
-  {{#if isImageShowing }}
+    {{#link-to 'question' question.id}}{{question.author}}'s question{{/link-to}}
+    {{#if isImageShowing}}
       <p><img src={{question.image}} alt={{question.inquiry}} {{action 'imageHide'}}></p>
     {{else}}
-      <button {{action 'imageShow'}}>Show image</button>
+      <button {{action 'imageShow'}}>Image</button>
     {{/if}}
-    {{update-question question=question update="update"}}
-     <button {{action 'delete' question}}>Delete question</button>
 </div>

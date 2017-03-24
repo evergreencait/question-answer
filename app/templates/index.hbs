@@ -1,10 +1,10 @@
-<h1>Snowboarding Forum</h1>
+<h1> Snowboarding Forum </h1>
 
-<p>A forum to ask questions about snowboarding and get the answers you need!</p>
+A place to ask question about snowboarding and get the answers you need!
 
 <ul>
   {{#each model as |question|}}
-    {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
+     {{question-tile question=question}}
   {{/each}}
 </ul>
 
