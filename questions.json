@@ -1,0 +1,17 @@
+{ "questions": [{
+    "inquiry": "What does reverse camber mean?",
+    "author": "Kay Oss",
+    "notes": "I am trying to figure out what type of board I should buy for washington snowboarding",
+    "image": "http://snowboarding.transworld.net/files/2009/10/rocker.jpg"
+  }, {
+    "inquiry": "Should I invest in getting a board with magne-traction?",
+    "author": "Felix",
+    "notes": "Just wondering if helps that much in icy conditions",
+    "image": "http://10c9rz12yp4b46gr6a2oxgub.wpengine.netdna-cdn.com/wp-content/uploads/Magne-Traction-e1415057971648.png"
+  }, {
+    "inquiry": "Is anyone interested in carpooling to Whistler the weekend of April 8th?",
+    "author": "Frank N. Stein",
+    "notes": "I am heading up to Canada that weekend and was wondering if anyone wants to carpool and snowboard together",
+    "image": "https://static1.squarespace.com/static/544826ade4b0ac06f58301ed/t/545c09a9e4b03a44d11069df/1415317934269/p2p.jpg?format=2500w"
+  }]
+}

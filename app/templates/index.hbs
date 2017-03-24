@@ -1,0 +1,12 @@
+<h1>Snowboarding Forum</h1>
+
+<p>A forum to ask questions about snowboarding and get the answers you need!</p>
+
+<ul>
+  {{#each model as |question|}}
+    {{question-tile question=question}}
+  {{/each}}
+</ul>
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
