@@ -1,9 +1,10 @@
-<li>
+<div class="question">
   {{question.inquiry}} by {{question.author}}
+  <hr>
   {{question.notes}}
   {{#if isImageShowing }}
-    <p><img scr={{question.image}} {{action 'imageHide'}}></p>
-  {{else}}
-    <button {{action 'imageShow'}}>Show image</button>
-  {{/if}}
-</li>
+      <p><img src={{question.image}} alt={{question.inquiry}} {{action 'imageHide'}}></p>
+    {{else}}
+      <button {{action 'imageShow'}}>Show image</button>
+    {{/if}}
+</div>
